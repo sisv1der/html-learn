@@ -163,6 +163,7 @@ body {
             top: -16px;
             left: 200px;
         }
+        
         .stand-2 {
             height: 90px;
             width: 6px;
@@ -171,4 +172,16 @@ body {
             position: relative;
             top: -105px;
             left: 255px;
-        }       
+        }
+        
+        .about {
+            position: relative;
+            background-image: url("../images/jab-transformed.jpg") no-repeat top center/cover;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
